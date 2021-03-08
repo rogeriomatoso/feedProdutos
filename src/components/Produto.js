@@ -6,26 +6,20 @@ export default class Produto extends Component{
         return(
             <View style={styles.item}>
                 <Text style ={styles.title}>{this.props.produto}</Text>
-                <View style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    justifyContent: 'space-around',
-                    alignItems: 'flex-start',                    
-                    
-                }}>
-                    <View><Text>Valor: {this.props.valor} </Text></View>
-                    <View><Text>Marca: {this.props.marca}</Text></View>
-                      
+                <View>
+                    <Text>Valor: {this.props.valor} </Text>
+                    <Text>Marca: {this.props.marca}</Text>
+                    <View>
+                        <Text>{this.props.desconto}</Text>
+                    </View>                      
               </View>
-                <View style={{
-                    flex: 1,
-                    flexDirection: 'row',
-                    justifyContent: 'space-around',
-                    alignItems:'flex-start',                    
-                }}>
-                    <View><Text>Qtdade: {this.props.qtde}</Text></View>
-                    <View><Text>Ref: {this.props.ref}</Text></View>   
-                    
+
+                <View>
+                    <Text>Qtdade: {this.props.qtde}</Text>
+                    <Text>Ref: {this.props.id}</Text>
+                    <View>
+                        <Text>{this.props.promo}</Text>
+                    </View>                     
                 </View>
             </View>
         )
