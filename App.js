@@ -15,29 +15,29 @@ constructor (props){
         id: 1,
         produto: 'Arroz',
         marca: 'Fufu Legal',
-        valor: 'R$15,90',
+        valor: 'R$ 15,90',
         qtde: 23,
         ref: 1023,
         desconto: '10%',
-        promo: 'menos 25% na segunda unidade'
+        promo: '-25% na segunda unidade'
       },
 
       {
         id: 2,
         produto: 'Farinha',
         marca: 'D Rosa',
-        valor: 'R$4,50',
+        valor: 'R$ 4,50',
         qtde: 83,
         ref: 1048,
         desconto: '5%',
-        promo: 'menos 15% na segunda unidade'
+        promo: '-15% na segunda unidade'
       },
 
       {
         id: 3,
         produto: 'Detergente',
         marca: 'Ype',
-        valor: 'R$5,90',
+        valor: 'R$ 5,90',
         qtde: 323,
         ref: 903,
         desconto: '10%',
@@ -48,7 +48,7 @@ constructor (props){
         id: 4,
         produto: 'Feijão',
         marca: 'Fufu Legal',
-        valor: 'R$12,90',
+        valor: 'R$ 12,90',
         qtde: 253,
         ref: 3452,
         desconto: '10%',
@@ -59,7 +59,7 @@ constructor (props){
         id: 5,
         produto: 'Bolacha Agua & Sal',
         marca: 'Mabel',
-        valor: 'R$3,40',
+        valor: 'R$ 3,40',
         qtde: 123,
         ref: 4323,
         desconto: '5%',
@@ -70,7 +70,7 @@ constructor (props){
         id: 6,
         produto: 'Oleo Vegetal',
         marca: 'ABC',
-        valor: 'R$10,45',
+        valor: 'R$ 10,45',
         qtde: 235,
         ref: 100,
         desconto: '15%',
@@ -81,11 +81,11 @@ constructor (props){
         id: 7,
         produto: 'Açucar',
         marca: 'Delta',
-        valor: 'R$11,30',
+        valor: 'R$ 11,30',
         qtde: 443,
         ref: 1045,
         desconto: '10%',
-        promo: '25% na segunda unidade'
+        promo: '-25% na segunda unidade'
       },
    ]
   }
@@ -153,9 +153,9 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgb(61,138,247)'    
   },
 
-  body:{
+  /*body:{
     flex: 8,    
-  }, 
+  }, */
 
   footer:{
     flex: 1, 
